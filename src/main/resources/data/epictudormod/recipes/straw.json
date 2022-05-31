@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "id": "origins:fire_charge_without_blaze_powder",
+  "ingredients":
+    [
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:string"
+      }
+    ],
+  "result": {
+    "item": "epictudormod:straw",
+    "count": 3
+  }
+}

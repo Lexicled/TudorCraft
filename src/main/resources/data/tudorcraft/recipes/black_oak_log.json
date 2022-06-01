@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+    [
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:oak_log"
+      },
+      {
+        "item": "minecraft:black_dye"
+      }
+    ],
+  "result": {
+    "item": "tudorcraft:black_oak_log",
+    "count": 8
+  }
+}

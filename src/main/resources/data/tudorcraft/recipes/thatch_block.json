@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+    [
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      },
+      {
+        "item": "tudorcraft:straw"
+      }
+    ],
+  "result": {
+    "item": "tudorcraft:thatch_block",
+    "count": 1
+  }
+}

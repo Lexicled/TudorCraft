@@ -1,5 +1,6 @@
 package net.tudorcraft.tudorcraft;
 
+import net.tudorcraft.tudorcraft.block.ModBlocks;
 import net.tudorcraft.tudorcraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class TudorCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

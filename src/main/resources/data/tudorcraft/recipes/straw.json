@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "id": "origins:fire_charge_without_blaze_powder",
   "ingredients":
     [
       {
@@ -17,7 +16,7 @@
       }
     ],
   "result": {
-    "item": "epictudormod:straw",
+    "item": "tudorcraft:straw",
     "count": 3
   }
 }

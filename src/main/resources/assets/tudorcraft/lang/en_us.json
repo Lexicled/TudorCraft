@@ -1,3 +1,6 @@
 {
-  "item.tudorcraft.straw": "Straw"
+  "item.tudorcraft.straw": "Straw",
+  "block.tudorcraft.thatch_block": "Thatch Block",
+  "block.tudorcraft.white_oak_log": "White Oak Log",
+  "block.tudorcraft.black_oak_log": "Black Oak Log"
 }

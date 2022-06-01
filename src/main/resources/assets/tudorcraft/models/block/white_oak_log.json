@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tudorcraft:block/white_oak_log"
+  }
+}

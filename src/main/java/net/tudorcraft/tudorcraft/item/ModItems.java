@@ -1,6 +1,6 @@
-package net.epictudormod.epictudormod.item;
+package net.tudorcraft.tudorcraft.item;
 
-import net.epictudormod.epictudormod.EpicTudorMod;
+import net.tudorcraft.tudorcraft.TudorCraft;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -11,9 +11,9 @@ public class ModItems {
     public static final Item STRAW = registerItem("straw", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(EpicTudorMod.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(TudorCraft.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        EpicTudorMod.LOGGER.info("Loading items for " + EpicTudorMod.MOD_NAME + "!");
+        TudorCraft.LOGGER.info("Loading items for " + TudorCraft.MOD_NAME + "!");
     }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "epictudormod",
+  "id": "tudorcraft",
   "version": "${version}",
 
   "name": "Epic Tudor Mod",
@@ -10,22 +10,17 @@
     "McKenzie",
     "Fred"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.epictudormod.epictudormod.EpicTudorMod"
+      "net.tudorcraft.tudorcraft.TudorCraft"
     ]
   },
   "mixins": [
-    "epictudormod.mixins.json"
+    "tudorcraft.mixins.json"
   ],
 
   "depends": {

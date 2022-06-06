@@ -12,12 +12,13 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tudorcraft.tudorcraft.TudorCraft;
+import net.tudorcraft.tudorcraft.item.ModItemGroup;
 
 public class ModBlocks {
 
-    public static final PillarBlock THATCH_BLOCK = registerPillarBlock("thatch_block", new PillarBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ItemGroup.BUILDING_BLOCKS);
-    public static final Block BLACK_OAK_LOG = registerBlock("black_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
-    public static final Block WHITE_OAK_LOG = registerBlock("white_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+    public static final PillarBlock THATCH_BLOCK = registerPillarBlock("thatch_block", new PillarBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
+    public static final Block BLACK_OAK_LOG = registerBlock("black_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
+    public static final Block WHITE_OAK_LOG = registerBlock("white_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

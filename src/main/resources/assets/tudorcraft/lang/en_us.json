@@ -2,5 +2,7 @@
   "item.tudorcraft.straw": "Straw",
   "block.tudorcraft.thatch_block": "Thatch Block",
   "block.tudorcraft.white_oak_log": "White Oak Log",
-  "block.tudorcraft.black_oak_log": "Black Oak Log"
+  "block.tudorcraft.black_oak_log": "Black Oak Log",
+  "item.tudorcraft.henry_vii_spawn_egg": "King Henry VII Spawn Egg",
+  "itemGroup.tudorcraft.tudor": "Tudor"
 }

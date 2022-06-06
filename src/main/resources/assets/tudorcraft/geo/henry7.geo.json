@@ -1,0 +1,68 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.henry7",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 8, -1], "size": [4, 5, 2], "uv": [12, 0]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -1], "size": [1, 8, 2], "uv": [8, 23]}
+					]
+				},
+				{
+					"name": "Robe",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-2, 1, 1], "size": [5, 11, 1], "uv": [0, 0]},
+						{"origin": [-3, 1, -1], "size": [1, 11, 3], "uv": [20, 20]},
+						{"origin": [-3, 1, -2], "size": [5, 11, 1], "uv": [11, 11]},
+						{"origin": [2, 1, -2], "size": [1, 11, 3], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "RobeTop",
+					"parent": "Robe",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 12, -2], "size": [1, 1, 4], "uv": [24, 0]},
+						{"origin": [-2, 12, -2], "size": [4, 1, 1], "uv": [12, 7]},
+						{"origin": [1, 12, 1], "size": [1, 1, 1], "uv": [12, 9]},
+						{"origin": [-2, 12, 1], "size": [1, 1, 1], "uv": [5, 12]},
+						{"origin": [2, 12, -2], "size": [1, 1, 4], "uv": [23, 15]}
+					]
+				},
+				{
+					"name": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 13, 0], "size": [2, 3, 2], "uv": [0, 26]},
+						{"origin": [-2, 16, -1], "size": [4, 1, 4], "uv": [34, 0]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [1, 8, 2], "uv": [23, 5]}
+					]
+				}
+			]
+		}
+	]
+}

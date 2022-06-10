@@ -11,6 +11,8 @@ import net.tudorcraft.tudorcraft.entity.ModEntities;
 
 public class ModItems {
     public static final Item STRAW = registerItem("straw", new Item(new FabricItemSettings().group(ModItemGroup.TUDOR)));
+    public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new FabricItemSettings().group(ModItemGroup.TUDOR)));
+    public static final Item RAW_LEAD = registerItem("raw_lead", new Item(new FabricItemSettings().group(ModItemGroup.TUDOR)));
 
     // public static final Item HENRY_VII_SPAWN_EGG = registerItem("henry_vii_spawn_egg",
     //        new SpawnEggItem(ModEntities.HENRY_VII,0xE89B44, 0x7A2D1B,

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+    [
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      },
+      {
+        "item": "tudorcraft:lead_ingot"
+      }
+    ],
+  "result": {
+    "item": "tudorcraft:lead_block",
+    "count": 1
+  }
+}

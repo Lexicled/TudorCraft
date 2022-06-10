@@ -5,9 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.PillarBlock;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -19,6 +17,8 @@ public class ModBlocks {
     public static final PillarBlock THATCH_BLOCK = registerPillarBlock("thatch_block", new PillarBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
     public static final Block BLACK_OAK_LOG = registerBlock("black_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
     public static final Block WHITE_OAK_LOG = registerBlock("white_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
+    public static final Block LEAD_BLOCK = registerBlock("lead_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).sounds(BlockSoundGroup.METAL).requiresTool()), ModItemGroup.TUDOR);
+    public static final Block LEAD_ORE = registerBlock("lead_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(5f).sounds(BlockSoundGroup.STONE).requiresTool()), ModItemGroup.TUDOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

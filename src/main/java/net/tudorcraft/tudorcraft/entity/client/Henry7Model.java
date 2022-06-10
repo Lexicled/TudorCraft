@@ -1,3 +1,4 @@
+/*
 package net.tudorcraft.tudorcraft.entity.client;
 
 import net.minecraft.util.Identifier;
@@ -42,3 +43,5 @@ public class Henry7Model extends AnimatedGeoModel {
         }
     }
 }
+
+ */

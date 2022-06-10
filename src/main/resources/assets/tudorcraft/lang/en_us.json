@@ -4,5 +4,9 @@
   "block.tudorcraft.white_oak_log": "White Oak Log",
   "block.tudorcraft.black_oak_log": "Black Oak Log",
   "item.tudorcraft.henry_vii_spawn_egg": "King Henry VII Spawn Egg",
-  "itemGroup.tudorcraft.tudor": "Tudor"
+  "itemGroup.tudorcraft.tudor": "Tudor",
+  "item.tudorcraft.raw_lead": "Raw Lead",
+  "item.tudorcraft.lead_ingot": "Lead Ingot",
+  "block.tudorcraft.lead_block": "Lead Block",
+  "block.tudorcraft.lead_ore": "Lead Ore"
 }

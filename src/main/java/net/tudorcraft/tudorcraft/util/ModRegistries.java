@@ -7,9 +7,10 @@ import net.tudorcraft.tudorcraft.entity.custom.Henry7Entity;
 public class ModRegistries {
     public static void registerEverything() {
         registerAttributes();
+
     }
 
     private static void registerAttributes() {
-        FabricDefaultAttributeRegistry.register(ModEntities.HENRY_VII, Henry7Entity.setAttributes());
+        // FabricDefaultAttributeRegistry.register(ModEntities.HENRY_VII, Henry7Entity.setAttributes());
     }
 }

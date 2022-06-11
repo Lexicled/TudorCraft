@@ -1,4 +1,3 @@
-/*
 package net.tudorcraft.tudorcraft.world.gen;
 
 public class ModWorldGen {
@@ -6,4 +5,3 @@ public class ModWorldGen {
         ModOreGeneration.generateOres();
     }
 }
-*/

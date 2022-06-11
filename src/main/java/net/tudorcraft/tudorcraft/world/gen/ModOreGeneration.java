@@ -1,4 +1,3 @@
-/*
 package net.tudorcraft.tudorcraft.world.gen;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
@@ -13,4 +12,3 @@ public class ModOreGeneration {
     }
 
 }
-*/

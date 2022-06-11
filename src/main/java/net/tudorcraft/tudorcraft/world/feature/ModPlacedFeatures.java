@@ -1,4 +1,3 @@
-/*
 package net.tudorcraft.tudorcraft.world.feature;
 
 import net.minecraft.util.registry.RegistryEntry;
@@ -9,7 +8,6 @@ import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 
 public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> LEAD_ORE_PLACED = PlacedFeatures.register("lead_ore_placed",
-            ModConfiguredFeatures.LEAD_ORE, ModOreFeatures.modifiersWithCount(18,
-                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(20), YOffset.aboveBottom(80))));
+            ModConfiguredFeatures.LEAD_ORE, ModOreFeatures.modifiersWithCount(7,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 }
-*/

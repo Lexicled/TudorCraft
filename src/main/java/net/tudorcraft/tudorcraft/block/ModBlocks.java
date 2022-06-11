@@ -19,6 +19,7 @@ public class ModBlocks {
     public static final Block WHITE_OAK_LOG = registerBlock("white_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
     public static final Block LEAD_BLOCK = registerBlock("lead_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).sounds(BlockSoundGroup.METAL).requiresTool()), ModItemGroup.TUDOR);
     public static final Block LEAD_ORE = registerBlock("lead_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(5f).sounds(BlockSoundGroup.STONE).requiresTool()), ModItemGroup.TUDOR);
+    public static final Block DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(7f).sounds(BlockSoundGroup.STONE).requiresTool()), ModItemGroup.TUDOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

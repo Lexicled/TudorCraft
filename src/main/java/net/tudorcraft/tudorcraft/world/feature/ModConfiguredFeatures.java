@@ -1,4 +1,3 @@
-/*
 package net.tudorcraft.tudorcraft.world.feature;
 
 import net.minecraft.util.registry.RegistryEntry;
@@ -12,13 +11,14 @@ public class ModConfiguredFeatures {
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_LEAD_ORES = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
-                    ModBlocks.LEAD_ORE.getDefaultState()));
+                    ModBlocks.LEAD_ORE.getDefaultState()),
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                    ModBlocks.DEEPSLATE_LEAD_ORE.getDefaultState()));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> LEAD_ORE =
             ConfiguredFeatures.register("tudorcraft:lead_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_LEAD_ORES, 10));
+                    new OreFeatureConfig(OVERWORLD_LEAD_ORES, 9));
 
     public static void registerConfiguredFeatures() {
         System.out.println("Registering ModConfiguredFeatures for " + TudorCraft.MOD_ID);
     }
 }
-*/

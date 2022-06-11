@@ -1,4 +1,3 @@
-/*
 package net.tudorcraft.tudorcraft.world.feature;
 
 import net.minecraft.world.gen.placementmodifier.*;
@@ -18,4 +17,3 @@ public class ModOreFeatures {
         return modifiers(RarityFilterPlacementModifier.of(chance), heightModifier);
     }
 }
-*/

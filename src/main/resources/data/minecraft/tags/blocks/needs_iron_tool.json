@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tudorcraft:lead_block",
-    "tudorcraft:lead_ore"
+    "tudorcraft:lead_ore",
+    "tudorcraft:deepslate_lead_ore"
   ]
 }

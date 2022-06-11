@@ -8,5 +8,6 @@
   "item.tudorcraft.raw_lead": "Raw Lead",
   "item.tudorcraft.lead_ingot": "Lead Ingot",
   "block.tudorcraft.lead_block": "Lead Block",
-  "block.tudorcraft.lead_ore": "Lead Ore"
+  "block.tudorcraft.lead_ore": "Lead Ore",
+  "block.tudorcraft.deepslate_lead_ore": "Deepslate Lead Ore"
 }

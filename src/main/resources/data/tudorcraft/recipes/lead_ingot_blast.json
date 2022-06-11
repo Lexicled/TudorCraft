@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "tudorcraft:raw_lead"
+  },
+  "result": "tudorcraft:lead_ingot",
+  "experience": 0,
+  "cookingtime": 200
+}

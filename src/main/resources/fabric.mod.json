@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "net.tudorcraft.tudorcraft.TudorCraft"
+    ],
+    "client": [
+      "net.tudorcraft.tudorcraft.TudorCraftClient"
     ]
   },
   "mixins": [

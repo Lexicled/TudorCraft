@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tudorcraft:block/thatch_block_side",
+    "top": "tudorcraft:block/thatch_block_side",
+    "side": "tudorcraft:block/thatch_block_side"
+  }
+}

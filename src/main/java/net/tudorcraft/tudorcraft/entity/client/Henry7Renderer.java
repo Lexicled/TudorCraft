@@ -1,4 +1,3 @@
-/*
 package net.tudorcraft.tudorcraft.entity.client;
 
 import net.minecraft.client.render.entity.EntityRendererFactory;
@@ -14,8 +13,7 @@ public class Henry7Renderer extends GeoEntityRenderer<Henry7Entity> {
     }
 
     @Override
-    public Identifier getTextureLocation(Henry7Entity instance) {
+    public Identifier getTextureResource(Henry7Entity instance) {
         return new Identifier(TudorCraft.MOD_ID, "textures/entity/henry7.png");
     }
 }
- */

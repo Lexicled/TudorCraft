@@ -6,11 +6,8 @@ import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
-import net.minecraft.entity.mob.MobEntity;
-import net.minecraft.entity.mob.RavagerEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.PassiveEntity;
-import net.minecraft.entity.passive.SheepEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundEvent;
@@ -26,11 +23,11 @@ import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
 
-public class Henry7Entity extends AnimalEntity implements IAnimatable  {
+public class Henry8Entity extends AnimalEntity implements IAnimatable  {
 
     private AnimationFactory factory = new AnimationFactory(this);
 
-    public Henry7Entity(EntityType<? extends AnimalEntity> entityType, World world) {
+    public Henry8Entity(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
 
@@ -59,11 +56,11 @@ public class Henry7Entity extends AnimalEntity implements IAnimatable  {
     }
     private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> event) {
         if (event.isMoving()) {
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.henry7.walk", true));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.henry8.walk", true));
             return PlayState.CONTINUE;
         }
 
-        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.henry7.idle", true));
+        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.henry8.idle", true));
         return PlayState.CONTINUE;
     }
 

@@ -2,9 +2,7 @@ package net.tudorcraft.tudorcraft.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.*;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
@@ -20,6 +18,8 @@ public class ModBlocks {
     public static final Block LEAD_BLOCK = registerBlock("lead_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).sounds(BlockSoundGroup.METAL).requiresTool()), ModItemGroup.TUDOR);
     public static final Block LEAD_ORE = registerBlock("lead_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(5f).sounds(BlockSoundGroup.STONE).requiresTool()), ModItemGroup.TUDOR);
     public static final Block DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(7f).sounds(BlockSoundGroup.STONE).requiresTool()), ModItemGroup.TUDOR);
+    public static final Block THATCH_SLAB = registerBlock("thatch_slab", new SlabBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
+    public static final Block THATCH_STAIRS = registerBlock("thatch_stairs", new StairsBlock(ModBlocks.THATCH_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

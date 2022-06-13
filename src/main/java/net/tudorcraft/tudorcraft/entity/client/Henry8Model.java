@@ -8,7 +8,7 @@ import software.bernie.geckolib3.core.processor.IBone;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 import software.bernie.geckolib3.model.provider.data.EntityModelData;
 
-public class Henry7Model extends AnimatedGeoModel {
+public class Henry8Model extends AnimatedGeoModel {
 
     @Override
     public void setLivingAnimations(Object o, Integer integer, AnimationEvent animationEvent) {
@@ -17,17 +17,17 @@ public class Henry7Model extends AnimatedGeoModel {
 
     @Override
     public Identifier getModelResource(Object object) {
-        return new Identifier(TudorCraft.MOD_ID, "geo/henry7.geo.json");
+        return new Identifier(TudorCraft.MOD_ID, "geo/henry8.geo.json");
     }
 
     @Override
     public Identifier getTextureResource(Object object) {
-        return new Identifier(TudorCraft.MOD_ID, "textures/entity/henry7.png");
+        return new Identifier(TudorCraft.MOD_ID, "textures/entity/henry8.png");
     }
 
     @Override
     public Identifier getAnimationResource(Object animatable) {
-        return new Identifier(TudorCraft.MOD_ID, "animations/henry7.animation.json");
+        return new Identifier(TudorCraft.MOD_ID, "animations/henry8.animation.json");
     }
 
     @SuppressWarnings({ "unchecked", "rawtypes" })

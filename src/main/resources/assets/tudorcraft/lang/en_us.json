@@ -1,13 +1,27 @@
 {
+  "itemGroup.tudorcraft.tudor": "Tudor",
+
   "item.tudorcraft.straw": "Straw",
   "block.tudorcraft.thatch_block": "Thatch Block",
+  "block.tudorcraft.thatch_slab": "Thatch Slab",
+  "block.tudorcraft.thatch_stairs": "Thatch Stairs",
+
   "block.tudorcraft.white_oak_log": "White Oak Log",
   "block.tudorcraft.black_oak_log": "Black Oak Log",
+
   "item.tudorcraft.henry_vii_spawn_egg": "King Henry VII Spawn Egg",
-  "itemGroup.tudorcraft.tudor": "Tudor",
+  "entity.tudorcraft.henryvii": "Henry VII",
+
+  "item.tudorcraft.henry_viii_spawn_egg": "King Henry VIII Spawn Egg",
+  "entity.tudorcraft.henryviii": "Henry VIII",
+
+  "item.tudorcraft.vegetable_stew": "Vegetable Stew",
+  "item.tudorcraft.sugar_bowl": "Sugar in a Bowl",
+
   "item.tudorcraft.raw_lead": "Raw Lead",
   "item.tudorcraft.lead_ingot": "Lead Ingot",
   "block.tudorcraft.lead_block": "Lead Block",
   "block.tudorcraft.lead_ore": "Lead Ore",
-  "block.tudorcraft.deepslate_lead_ore": "Deepslate Lead Ore"
+  "block.tudorcraft.deepslate_lead_ore": "Deepslate Lead Ore",
+  "item.tudorcraft.lead_makeup": "Lead Makeup"
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tudorcraft:block/lead_slab"
+    },
+    "type=double": {
+      "model": "tudorcraft:block/lead_block"
+    },
+    "type=top": {
+      "model": "tudorcraft:block/lead_slab_top"
+    }
+  }
+}

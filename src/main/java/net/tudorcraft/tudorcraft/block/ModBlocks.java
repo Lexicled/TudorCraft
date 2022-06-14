@@ -12,7 +12,7 @@ import net.tudorcraft.tudorcraft.item.ModItemGroup;
 
 public class ModBlocks {
 
-    public static final PillarBlock THATCH_BLOCK = registerPillarBlock("thatch_block", new PillarBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
+    public static final Block THATCH_BLOCK = registerBlock("thatch_block", new PillarBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
     public static final Block BLACK_OAK_LOG = registerBlock("black_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
     public static final Block WHITE_OAK_LOG = registerBlock("white_oak_log", new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.TUDOR);
     public static final Block LEAD_BLOCK = registerBlock("lead_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).sounds(BlockSoundGroup.METAL).requiresTool()), ModItemGroup.TUDOR);
@@ -20,6 +20,8 @@ public class ModBlocks {
     public static final Block DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(7f).sounds(BlockSoundGroup.STONE).requiresTool()), ModItemGroup.TUDOR);
     public static final Block THATCH_SLAB = registerBlock("thatch_slab", new SlabBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
     public static final Block THATCH_STAIRS = registerBlock("thatch_stairs", new StairsBlock(ModBlocks.THATCH_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.GRASS)), ModItemGroup.TUDOR);
+    public static final Block LEAD_SLAB = registerBlock("lead_slab", new SlabBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.5f).sounds(BlockSoundGroup.METAL)), ModItemGroup.TUDOR);
+    public static final Block LEAD_STAIRS = registerBlock("lead_stairs", new StairsBlock(ModBlocks.LEAD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(0.5f).sounds(BlockSoundGroup.METAL)), ModItemGroup.TUDOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

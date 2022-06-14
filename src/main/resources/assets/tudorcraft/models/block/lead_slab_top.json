@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tudorcraft:block/lead_block",
+    "top": "tudorcraft:block/lead_block",
+    "side": "tudorcraft:block/lead_block"
+  }
+}
